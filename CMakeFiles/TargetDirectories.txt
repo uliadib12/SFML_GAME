@@ -1,0 +1,3 @@
+/home/adib/Documents/Project/SFML_GAME/CMakeFiles/Game.dir
+/home/adib/Documents/Project/SFML_GAME/CMakeFiles/edit_cache.dir
+/home/adib/Documents/Project/SFML_GAME/CMakeFiles/rebuild_cache.dir

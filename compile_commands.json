@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/adib/Documents/Project/SFML_GAME",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/main.cpp.o -c /home/adib/Documents/Project/SFML_GAME/main.cpp",
+  "file": "/home/adib/Documents/Project/SFML_GAME/main.cpp"
+}
+]
