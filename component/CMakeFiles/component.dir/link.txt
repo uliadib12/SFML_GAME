@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcomponent.a CMakeFiles/component.dir/GameManager.cpp.o CMakeFiles/component.dir/Scene.cpp.o
+/usr/bin/ranlib libcomponent.a

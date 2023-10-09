@@ -8,13 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/adib/Documents/Project/SFML_GAME/main.cpp" "CMakeFiles/Game.dir/main.cpp.o" "gcc" "CMakeFiles/Game.dir/main.cpp.o.d"
+  "/home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp" "component/CMakeFiles/component.dir/GameManager.cpp.o" "gcc" "component/CMakeFiles/component.dir/GameManager.cpp.o.d"
+  "/home/adib/Documents/Project/SFML_GAME/component/Scene.cpp" "component/CMakeFiles/component.dir/Scene.cpp.o" "gcc" "component/CMakeFiles/component.dir/Scene.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/adib/Documents/Project/SFML_GAME/component/CMakeFiles/component.dir/DependInfo.cmake"
-  "/home/adib/Documents/Project/SFML_GAME/Scene/CMakeFiles/Scene.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

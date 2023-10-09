@@ -2,7 +2,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 
-#include "component/GameManager.hpp"
+#include "GameManager.hpp"
 #include "Scene/Main/MainScene.hpp"
 #include "Scene/Main/InputHandler/MainInputHandler.hpp"
 
@@ -16,7 +16,6 @@ sf::RenderWindow* setUpWindow(uint width, uint height){
     uint widthWindow = width;
     uint heightWindow = height;
 
-    // convert to heap
     sf::RenderWindow* window = new sf::RenderWindow(sf::VideoMode(widthWindow, heightWindow), "Game", sf::Style::Close);
     window->setPosition(sf::Vector2i(widthScreen/2 - widthWindow/2, (heightScreen/2 - heightWindow/2)));
     window->setVerticalSyncEnabled(true);

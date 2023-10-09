@@ -1,32 +1,32 @@
 [
 {
   "directory": "/home/adib/Documents/Project/SFML_GAME",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/main.cpp.o -c /home/adib/Documents/Project/SFML_GAME/main.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/component -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/main.cpp.o -c /home/adib/Documents/Project/SFML_GAME/main.cpp",
   "file": "/home/adib/Documents/Project/SFML_GAME/main.cpp"
 },
 {
-  "directory": "/home/adib/Documents/Project/SFML_GAME",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/component/GameManager.cpp.o -c /home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp",
+  "directory": "/home/adib/Documents/Project/SFML_GAME/component",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/component.dir/GameManager.cpp.o -c /home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp",
   "file": "/home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp"
 },
 {
-  "directory": "/home/adib/Documents/Project/SFML_GAME",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/component/Scene.cpp.o -c /home/adib/Documents/Project/SFML_GAME/component/Scene.cpp",
+  "directory": "/home/adib/Documents/Project/SFML_GAME/component",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/component.dir/Scene.cpp.o -c /home/adib/Documents/Project/SFML_GAME/component/Scene.cpp",
   "file": "/home/adib/Documents/Project/SFML_GAME/component/Scene.cpp"
 },
 {
-  "directory": "/home/adib/Documents/Project/SFML_GAME",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/Scene/Main/InputHandler/MainCommands.cpp.o -c /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainCommands.cpp",
+  "directory": "/home/adib/Documents/Project/SFML_GAME/Scene",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/Scene.dir/Main/InputHandler/MainCommands.cpp.o -c /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainCommands.cpp",
   "file": "/home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainCommands.cpp"
 },
 {
-  "directory": "/home/adib/Documents/Project/SFML_GAME",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/Scene/Main/InputHandler/MainInputHandler.cpp.o -c /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainInputHandler.cpp",
+  "directory": "/home/adib/Documents/Project/SFML_GAME/Scene",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/Scene.dir/Main/InputHandler/MainInputHandler.cpp.o -c /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainInputHandler.cpp",
   "file": "/home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainInputHandler.cpp"
 },
 {
-  "directory": "/home/adib/Documents/Project/SFML_GAME",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.6\\\" -I/home/adib/Documents/Project/SFML_GAME/include/box2d -std=gnu++17 -o CMakeFiles/Game.dir/Scene/Main/MainScene.cpp.o -c /home/adib/Documents/Project/SFML_GAME/Scene/Main/MainScene.cpp",
+  "directory": "/home/adib/Documents/Project/SFML_GAME/Scene",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/Scene.dir/Main/MainScene.cpp.o -c /home/adib/Documents/Project/SFML_GAME/Scene/Main/MainScene.cpp",
   "file": "/home/adib/Documents/Project/SFML_GAME/Scene/Main/MainScene.cpp"
 }
 ]

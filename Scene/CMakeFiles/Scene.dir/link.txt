@@ -1,0 +1,2 @@
+/usr/bin/ar qc libScene.a CMakeFiles/Scene.dir/Main/InputHandler/MainCommands.cpp.o CMakeFiles/Scene.dir/Main/InputHandler/MainInputHandler.cpp.o CMakeFiles/Scene.dir/Main/MainScene.cpp.o
+/usr/bin/ranlib libScene.a

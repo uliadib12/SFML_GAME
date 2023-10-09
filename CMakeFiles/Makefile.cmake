@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
   "CMakeLists.txt"
+  "Scene/CMakeLists.txt"
+  "component/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake"
@@ -47,9 +49,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "component/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Scene/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Game.dir/DependInfo.cmake"
+  "component/CMakeFiles/component.dir/DependInfo.cmake"
+  "Scene/CMakeFiles/Scene.dir/DependInfo.cmake"
   )

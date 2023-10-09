@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles /home/adib/Documents/Project/SFML_GAME//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/adib/Documents/Project/SFML_GAME && $(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles /home/adib/Documents/Project/SFML_GAME/component//CMakeFiles/progress.marks
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,81 +103,80 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adib/Documents/Project/SFML_GAME && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Game
+# Convenience name for target.
+component/CMakeFiles/component.dir/rule:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component/CMakeFiles/component.dir/rule
+.PHONY : component/CMakeFiles/component.dir/rule
 
-# Build rule for target.
-Game: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Game
-.PHONY : Game
-
-# fast build rule for target.
-Game/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
-.PHONY : Game/fast
-
-#=============================================================================
-# Target rules for targets named component
-
-# Build rule for target.
-component: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component
+# Convenience name for target.
+component: component/CMakeFiles/component.dir/rule
 .PHONY : component
 
 # fast build rule for target.
 component/fast:
-	$(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/build
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/build
 .PHONY : component/fast
 
-#=============================================================================
-# Target rules for targets named Scene
-
-# Build rule for target.
-Scene: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Scene
-.PHONY : Scene
-
-# fast build rule for target.
-Scene/fast:
-	$(MAKE) $(MAKESILENT) -f Scene/CMakeFiles/Scene.dir/build.make Scene/CMakeFiles/Scene.dir/build
-.PHONY : Scene/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
+GameManager.o: GameManager.cpp.o
+.PHONY : GameManager.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/main.cpp.o
-.PHONY : main.cpp.o
+GameManager.cpp.o:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/GameManager.cpp.o
+.PHONY : GameManager.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+GameManager.i: GameManager.cpp.i
+.PHONY : GameManager.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/main.cpp.i
-.PHONY : main.cpp.i
+GameManager.cpp.i:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/GameManager.cpp.i
+.PHONY : GameManager.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+GameManager.s: GameManager.cpp.s
+.PHONY : GameManager.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/main.cpp.s
-.PHONY : main.cpp.s
+GameManager.cpp.s:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/GameManager.cpp.s
+.PHONY : GameManager.cpp.s
+
+Scene.o: Scene.cpp.o
+.PHONY : Scene.o
+
+# target to build an object file
+Scene.cpp.o:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/Scene.cpp.o
+.PHONY : Scene.cpp.o
+
+Scene.i: Scene.cpp.i
+.PHONY : Scene.i
+
+# target to preprocess a source file
+Scene.cpp.i:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/Scene.cpp.i
+.PHONY : Scene.cpp.i
+
+Scene.s: Scene.cpp.s
+.PHONY : Scene.s
+
+# target to generate assembly for a file
+Scene.cpp.s:
+	cd /home/adib/Documents/Project/SFML_GAME && $(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/Scene.cpp.s
+.PHONY : Scene.cpp.s
 
 # Help Target
 help:
@@ -187,12 +186,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Game"
-	@echo "... Scene"
 	@echo "... component"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... GameManager.o"
+	@echo "... GameManager.i"
+	@echo "... GameManager.s"
+	@echo "... Scene.o"
+	@echo "... Scene.i"
+	@echo "... Scene.s"
 .PHONY : help
 
 
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adib/Documents/Project/SFML_GAME && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

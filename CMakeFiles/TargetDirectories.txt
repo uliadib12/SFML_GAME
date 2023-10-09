@@ -1,3 +1,9 @@
 /home/adib/Documents/Project/SFML_GAME/CMakeFiles/Game.dir
 /home/adib/Documents/Project/SFML_GAME/CMakeFiles/edit_cache.dir
 /home/adib/Documents/Project/SFML_GAME/CMakeFiles/rebuild_cache.dir
+/home/adib/Documents/Project/SFML_GAME/component/CMakeFiles/component.dir
+/home/adib/Documents/Project/SFML_GAME/component/CMakeFiles/edit_cache.dir
+/home/adib/Documents/Project/SFML_GAME/component/CMakeFiles/rebuild_cache.dir
+/home/adib/Documents/Project/SFML_GAME/Scene/CMakeFiles/Scene.dir
+/home/adib/Documents/Project/SFML_GAME/Scene/CMakeFiles/edit_cache.dir
+/home/adib/Documents/Project/SFML_GAME/Scene/CMakeFiles/rebuild_cache.dir

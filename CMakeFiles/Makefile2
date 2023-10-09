@@ -64,29 +64,65 @@ CMAKE_BINARY_DIR = /home/adib/Documents/Project/SFML_GAME
 
 # The main recursive "all" target.
 all: CMakeFiles/Game.dir/all
+all: component/all
+all: Scene/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: component/preinstall
+preinstall: Scene/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Game.dir/clean
+clean: component/clean
+clean: Scene/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Scene
+
+# Recursive "all" directory target.
+Scene/all: Scene/CMakeFiles/Scene.dir/all
+.PHONY : Scene/all
+
+# Recursive "preinstall" directory target.
+Scene/preinstall:
+.PHONY : Scene/preinstall
+
+# Recursive "clean" directory target.
+Scene/clean: Scene/CMakeFiles/Scene.dir/clean
+.PHONY : Scene/clean
+
+#=============================================================================
+# Directory level rules for directory component
+
+# Recursive "all" directory target.
+component/all: component/CMakeFiles/component.dir/all
+.PHONY : component/all
+
+# Recursive "preinstall" directory target.
+component/preinstall:
+.PHONY : component/preinstall
+
+# Recursive "clean" directory target.
+component/clean: component/CMakeFiles/component.dir/clean
+.PHONY : component/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Game.dir
 
 # All Build rule for target.
-CMakeFiles/Game.dir/all:
+CMakeFiles/Game.dir/all: component/CMakeFiles/component.dir/all
+CMakeFiles/Game.dir/all: Scene/CMakeFiles/Scene.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=1,2 "Built target Game"
 .PHONY : CMakeFiles/Game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 0
 .PHONY : CMakeFiles/Game.dir/rule
@@ -99,6 +135,58 @@ Game: CMakeFiles/Game.dir/rule
 CMakeFiles/Game.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/clean
 .PHONY : CMakeFiles/Game.dir/clean
+
+#=============================================================================
+# Target rules for target component/CMakeFiles/component.dir
+
+# All Build rule for target.
+component/CMakeFiles/component.dir/all:
+	$(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/depend
+	$(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=7,8,9 "Built target component"
+.PHONY : component/CMakeFiles/component.dir/all
+
+# Build rule for subdir invocation for target.
+component/CMakeFiles/component.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 component/CMakeFiles/component.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 0
+.PHONY : component/CMakeFiles/component.dir/rule
+
+# Convenience name for target.
+component: component/CMakeFiles/component.dir/rule
+.PHONY : component
+
+# clean rule for target.
+component/CMakeFiles/component.dir/clean:
+	$(MAKE) $(MAKESILENT) -f component/CMakeFiles/component.dir/build.make component/CMakeFiles/component.dir/clean
+.PHONY : component/CMakeFiles/component.dir/clean
+
+#=============================================================================
+# Target rules for target Scene/CMakeFiles/Scene.dir
+
+# All Build rule for target.
+Scene/CMakeFiles/Scene.dir/all:
+	$(MAKE) $(MAKESILENT) -f Scene/CMakeFiles/Scene.dir/build.make Scene/CMakeFiles/Scene.dir/depend
+	$(MAKE) $(MAKESILENT) -f Scene/CMakeFiles/Scene.dir/build.make Scene/CMakeFiles/Scene.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=3,4,5,6 "Built target Scene"
+.PHONY : Scene/CMakeFiles/Scene.dir/all
+
+# Build rule for subdir invocation for target.
+Scene/CMakeFiles/Scene.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Scene/CMakeFiles/Scene.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adib/Documents/Project/SFML_GAME/CMakeFiles 0
+.PHONY : Scene/CMakeFiles/Scene.dir/rule
+
+# Convenience name for target.
+Scene: Scene/CMakeFiles/Scene.dir/rule
+.PHONY : Scene
+
+# clean rule for target.
+Scene/CMakeFiles/Scene.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Scene/CMakeFiles/Scene.dir/build.make Scene/CMakeFiles/Scene.dir/clean
+.PHONY : Scene/CMakeFiles/Scene.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
