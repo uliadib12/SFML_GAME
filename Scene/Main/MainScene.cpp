@@ -8,5 +8,4 @@ void MainScene::setUp(){
 void MainScene::update(){
 	GameManager* gameManager = this->getGameManager();
 	sf::RenderWindow* window = gameManager->getWindow();
-	std::cout << "update" << std::endl;
 }	

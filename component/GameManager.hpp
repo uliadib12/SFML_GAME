@@ -21,12 +21,14 @@ class GameManager
 		Scene* getScene();
 		sf::RenderWindow* getWindow();
 		sf::Clock* getClock();
+		float getDeltaTime();
 
 	private:
 		sf::RenderWindow* _window;
 		Scene* _scene;
 		InputHandlerInterface* inputHandler;
 		sf::Clock* _clock;
+		float _deltaTime;
 		void setUpScene();
 		void setUpInputHandler();
 };

@@ -18,11 +18,15 @@ GameManager::~GameManager() {
 }
 
 void GameManager::update() {
-	float timeElapsed = this->_clock->getElapsedTime().asSeconds();
+	_deltaTime = this->_clock->getElapsedTime().asSeconds();
    this->_clock->restart();
-    
+
 	this->setUpInputHandler();
 	this->_scene->update();
+}
+
+float GameManager::getDeltaTime() {
+	return this->_deltaTime;
 }
 
 void GameManager::setScene(Scene* scene) {
