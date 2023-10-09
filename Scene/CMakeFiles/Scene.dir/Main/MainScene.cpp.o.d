@@ -2,8 +2,11 @@ Scene/CMakeFiles/Scene.dir/Main/MainScene.cpp.o: \
  /home/adib/Documents/Project/SFML_GAME/Scene/Main/MainScene.cpp \
  /usr/include/stdc-predef.h \
  /home/adib/Documents/Project/SFML_GAME/Scene/Main/MainScene.hpp \
- /home/adib/Documents/Project/SFML_GAME/Scene/Main/../../component/Scene.hpp \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
+ /usr/include/SFML/Audio.hpp /usr/include/SFML/System.hpp \
+ /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
+ /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
+ /usr/include/SFML/System/Err.hpp /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -15,47 +18,8 @@ Scene/CMakeFiles/Scene.dir/Main/MainScene.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
  /usr/include/c++/12/pstl/pstl_config.h \
- /usr/include/c++/12/bits/functexcept.h \
- /usr/include/c++/12/bits/exception_defines.h \
- /usr/include/c++/12/bits/cpp_type_traits.h \
- /usr/include/c++/12/ext/type_traits.h \
- /usr/include/c++/12/ext/numeric_traits.h \
- /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/type_traits \
- /usr/include/c++/12/bits/move.h /usr/include/c++/12/bits/utility.h \
- /usr/include/c++/12/bits/stl_iterator_base_types.h \
- /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/12/bits/concept_check.h \
- /usr/include/c++/12/debug/assertions.h \
- /usr/include/c++/12/bits/stl_iterator.h \
- /usr/include/c++/12/bits/ptr_traits.h /usr/include/c++/12/debug/debug.h \
- /usr/include/c++/12/bits/predefined_ops.h \
- /usr/include/c++/12/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
- /usr/include/c++/12/bits/new_allocator.h /usr/include/c++/12/new \
- /usr/include/c++/12/bits/exception.h \
- /usr/include/c++/12/bits/memoryfwd.h \
- /usr/include/c++/12/bits/stl_construct.h \
- /usr/include/c++/12/bits/stl_uninitialized.h \
- /usr/include/c++/12/ext/alloc_traits.h \
- /usr/include/c++/12/bits/alloc_traits.h \
- /usr/include/c++/12/bits/stl_vector.h \
- /usr/include/c++/12/initializer_list \
- /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/functional_hash.h \
- /usr/include/c++/12/bits/hash_bytes.h /usr/include/c++/12/bits/refwrap.h \
- /usr/include/c++/12/bits/invoke.h \
- /usr/include/c++/12/bits/stl_function.h \
- /usr/include/c++/12/backward/binders.h \
- /usr/include/c++/12/bits/range_access.h \
- /usr/include/c++/12/bits/vector.tcc \
- /home/adib/Documents/Project/SFML_GAME/Scene/Main/../../component/GameManager.hpp \
- /home/adib/Documents/Project/SFML_GAME/Scene/Main/../../component/InputHandlerInterface.hpp \
- /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
- /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
- /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
- /usr/include/SFML/System/Err.hpp /usr/include/c++/12/ostream \
- /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
- /usr/include/c++/12/bits/stringfwd.h /usr/include/c++/12/bits/postypes.h \
+ /usr/include/c++/12/bits/stringfwd.h \
+ /usr/include/c++/12/bits/memoryfwd.h /usr/include/c++/12/bits/postypes.h \
  /usr/include/c++/12/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -70,9 +34,14 @@ Scene/CMakeFiles/Scene.dir/Main/MainScene.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/12/exception /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
+ /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/bits/exception_defines.h \
  /usr/include/c++/12/bits/cxxabi_init_exception.h \
- /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/nested_exception.h \
+ /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/hash_bytes.h \
+ /usr/include/c++/12/new /usr/include/c++/12/bits/move.h \
+ /usr/include/c++/12/type_traits \
+ /usr/include/c++/12/bits/nested_exception.h \
  /usr/include/c++/12/bits/char_traits.h /usr/include/c++/12/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -116,9 +85,35 @@ Scene/CMakeFiles/Scene.dir/Main/MainScene.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/12/bits/locale_classes.h /usr/include/c++/12/string \
+ /usr/include/c++/12/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+ /usr/include/c++/12/bits/new_allocator.h \
+ /usr/include/c++/12/bits/functexcept.h \
+ /usr/include/c++/12/bits/cpp_type_traits.h \
  /usr/include/c++/12/bits/ostream_insert.h \
  /usr/include/c++/12/bits/cxxabi_forced.h \
- /usr/include/c++/12/bits/basic_string.h /usr/include/c++/12/string_view \
+ /usr/include/c++/12/bits/stl_iterator_base_types.h \
+ /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/12/bits/concept_check.h \
+ /usr/include/c++/12/debug/assertions.h \
+ /usr/include/c++/12/bits/stl_iterator.h \
+ /usr/include/c++/12/ext/type_traits.h \
+ /usr/include/c++/12/bits/ptr_traits.h \
+ /usr/include/c++/12/bits/stl_function.h \
+ /usr/include/c++/12/backward/binders.h \
+ /usr/include/c++/12/ext/numeric_traits.h \
+ /usr/include/c++/12/bits/stl_algobase.h \
+ /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/bits/utility.h \
+ /usr/include/c++/12/debug/debug.h \
+ /usr/include/c++/12/bits/predefined_ops.h \
+ /usr/include/c++/12/bits/refwrap.h /usr/include/c++/12/bits/invoke.h \
+ /usr/include/c++/12/bits/range_access.h \
+ /usr/include/c++/12/initializer_list \
+ /usr/include/c++/12/bits/basic_string.h \
+ /usr/include/c++/12/ext/alloc_traits.h \
+ /usr/include/c++/12/bits/alloc_traits.h \
+ /usr/include/c++/12/bits/stl_construct.h /usr/include/c++/12/string_view \
+ /usr/include/c++/12/bits/functional_hash.h \
  /usr/include/c++/12/bits/string_view.tcc \
  /usr/include/c++/12/ext/string_conversions.h /usr/include/c++/12/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -187,7 +182,35 @@ Scene/CMakeFiles/Scene.dir/Main/MainScene.cpp.o: \
  /usr/include/SFML/System/Vector2.inl \
  /usr/include/SFML/System/Vector3.hpp \
  /usr/include/SFML/System/Vector3.inl \
- /usr/include/SFML/Window/Clipboard.hpp \
+ /usr/include/SFML/Audio/InputSoundFile.hpp \
+ /usr/include/SFML/Audio/Export.hpp /usr/include/SFML/Audio/Listener.hpp \
+ /usr/include/SFML/Audio/Music.hpp \
+ /usr/include/SFML/Audio/SoundStream.hpp \
+ /usr/include/SFML/Audio/SoundSource.hpp \
+ /usr/include/SFML/Audio/AlResource.hpp /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc \
+ /usr/include/SFML/Audio/OutputSoundFile.hpp \
+ /usr/include/SFML/Audio/Sound.hpp \
+ /usr/include/SFML/Audio/SoundBuffer.hpp /usr/include/c++/12/set \
+ /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/bits/node_handle.h \
+ /usr/include/c++/12/bits/stl_set.h \
+ /usr/include/c++/12/bits/stl_multiset.h \
+ /usr/include/c++/12/bits/erase_if.h \
+ /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+ /usr/include/SFML/Audio/SoundRecorder.hpp \
+ /usr/include/SFML/Audio/SoundFileFactory.hpp \
+ /usr/include/SFML/Audio/SoundFileFactory.inl \
+ /usr/include/SFML/Audio/SoundFileReader.hpp \
+ /usr/include/SFML/Audio/SoundFileWriter.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/../../component/Scene.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/../../component/GameManager.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/../../component/InputHandlerInterface.hpp \
+ /usr/include/SFML/Window.hpp /usr/include/SFML/Window/Clipboard.hpp \
  /usr/include/SFML/Window/Export.hpp /usr/include/SFML/Window/Context.hpp \
  /usr/include/SFML/Window/GlResource.hpp \
  /usr/include/SFML/Window/ContextSettings.hpp \
@@ -199,13 +222,9 @@ Scene/CMakeFiles/Scene.dir/Main/MainScene.cpp.o: \
  /usr/include/SFML/Window/Window.hpp \
  /usr/include/SFML/Window/WindowHandle.hpp \
  /usr/include/SFML/Window/WindowStyle.hpp /usr/include/c++/12/map \
- /usr/include/c++/12/bits/stl_tree.h \
- /usr/include/c++/12/ext/aligned_buffer.h \
- /usr/include/c++/12/bits/node_handle.h \
  /usr/include/c++/12/bits/stl_map.h /usr/include/c++/12/tuple \
  /usr/include/c++/12/bits/uses_allocator.h \
- /usr/include/c++/12/bits/stl_multimap.h \
- /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/memory \
+ /usr/include/c++/12/bits/stl_multimap.h /usr/include/c++/12/memory \
  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
  /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
  /usr/include/c++/12/bits/unique_ptr.h \

@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(behaviortree_cpp REQUIRED)
 
 # Find SFML
-find_package(SFML 2 COMPONENTS graphics window system REQUIRED)
+find_package(SFML 2 COMPONENTS graphics window system audio REQUIRED)
 
 # Add the directory containing your static library to CMake's search path
 link_directories(${CMAKE_SOURCE_DIR}/lib)
@@ -26,4 +26,4 @@ target_include_directories(Game PRIVATE ${CMAKE_SOURCE_DIR}/component)
 target_include_directories(Game PRIVATE ${CMAKE_SOURCE_DIR}/include/box2d)
 
 # Link SFML libraries to your project
-target_link_libraries(Game component Scene sfml-graphics sfml-window sfml-system box2d BT::behaviortree_cpp)
+target_link_libraries(Game component Scene sfml-graphics sfml-window sfml-system sfml-audio box2d BT::behaviortree_cpp)

@@ -32,8 +32,12 @@ Command* MainInputHandler::handleInputRealTime(sf::Event& event) {
 	   sf::Keyboard::isKeyPressed(m_keyMap["Left"]) ||
 	   sf::Keyboard::isKeyPressed(m_keyMap["Left_Alternate"]) ||
 	   sf::Keyboard::isKeyPressed(m_keyMap["Right"]) ||
-	   sf::Keyboard::isKeyPressed(m_keyMap["Right_Alternate"]))
+	   sf::Keyboard::isKeyPressed(m_keyMap["Right_Alternate"])){
 	   	return _moveCursorCommand;
+	}
+	else{
+		this->moveState = MoveState::None;
+	}
 
 	 if(sf::Keyboard::isKeyPressed(m_keyMap["Enter"]) || 
 	 	sf::Keyboard::isKeyPressed(m_keyMap["Exit"]))

@@ -34,9 +34,8 @@ int main()
 
     while (window->isOpen())
     {
-        gameManager->update();
-
         window->clear();
+        gameManager->update();
         window->display();
     }
 
