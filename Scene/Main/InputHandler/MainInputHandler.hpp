@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../component/InputHandlerInterface.hpp"
+#include "../../../component/InputHandlerInterface.hpp"
 #include "MainCommands.hpp"
 
 class MainInputHandler : public InputHandlerInterface {

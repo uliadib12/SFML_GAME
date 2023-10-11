@@ -12,8 +12,9 @@ class InputHandlerInterface;
 class Scene{
 	public:
 		Scene(InputHandlerInterface* inputHandler);
-		~Scene() {};
-		void update();
+		virtual ~Scene() {};
+		virtual void setUp() = 0;
+		virtual void update() = 0;
 		void setGameManager(GameManager* gameManager);
 		GameManager* getGameManager();
 		std::vector<GameObject*> gameObjects;

@@ -129,53 +129,77 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-InputHandler/Main/MainCommands.o: InputHandler/Main/MainCommands.cpp.o
-.PHONY : InputHandler/Main/MainCommands.o
+Scene/Main/InputHandler/MainCommands.o: Scene/Main/InputHandler/MainCommands.cpp.o
+.PHONY : Scene/Main/InputHandler/MainCommands.o
 
 # target to build an object file
-InputHandler/Main/MainCommands.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o
-.PHONY : InputHandler/Main/MainCommands.cpp.o
+Scene/Main/InputHandler/MainCommands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/InputHandler/MainCommands.cpp.o
+.PHONY : Scene/Main/InputHandler/MainCommands.cpp.o
 
-InputHandler/Main/MainCommands.i: InputHandler/Main/MainCommands.cpp.i
-.PHONY : InputHandler/Main/MainCommands.i
+Scene/Main/InputHandler/MainCommands.i: Scene/Main/InputHandler/MainCommands.cpp.i
+.PHONY : Scene/Main/InputHandler/MainCommands.i
 
 # target to preprocess a source file
-InputHandler/Main/MainCommands.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.i
-.PHONY : InputHandler/Main/MainCommands.cpp.i
+Scene/Main/InputHandler/MainCommands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/InputHandler/MainCommands.cpp.i
+.PHONY : Scene/Main/InputHandler/MainCommands.cpp.i
 
-InputHandler/Main/MainCommands.s: InputHandler/Main/MainCommands.cpp.s
-.PHONY : InputHandler/Main/MainCommands.s
+Scene/Main/InputHandler/MainCommands.s: Scene/Main/InputHandler/MainCommands.cpp.s
+.PHONY : Scene/Main/InputHandler/MainCommands.s
 
 # target to generate assembly for a file
-InputHandler/Main/MainCommands.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.s
-.PHONY : InputHandler/Main/MainCommands.cpp.s
+Scene/Main/InputHandler/MainCommands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/InputHandler/MainCommands.cpp.s
+.PHONY : Scene/Main/InputHandler/MainCommands.cpp.s
 
-InputHandler/Main/MainInputHandler.o: InputHandler/Main/MainInputHandler.cpp.o
-.PHONY : InputHandler/Main/MainInputHandler.o
+Scene/Main/InputHandler/MainInputHandler.o: Scene/Main/InputHandler/MainInputHandler.cpp.o
+.PHONY : Scene/Main/InputHandler/MainInputHandler.o
 
 # target to build an object file
-InputHandler/Main/MainInputHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o
-.PHONY : InputHandler/Main/MainInputHandler.cpp.o
+Scene/Main/InputHandler/MainInputHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/InputHandler/MainInputHandler.cpp.o
+.PHONY : Scene/Main/InputHandler/MainInputHandler.cpp.o
 
-InputHandler/Main/MainInputHandler.i: InputHandler/Main/MainInputHandler.cpp.i
-.PHONY : InputHandler/Main/MainInputHandler.i
+Scene/Main/InputHandler/MainInputHandler.i: Scene/Main/InputHandler/MainInputHandler.cpp.i
+.PHONY : Scene/Main/InputHandler/MainInputHandler.i
 
 # target to preprocess a source file
-InputHandler/Main/MainInputHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.i
-.PHONY : InputHandler/Main/MainInputHandler.cpp.i
+Scene/Main/InputHandler/MainInputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/InputHandler/MainInputHandler.cpp.i
+.PHONY : Scene/Main/InputHandler/MainInputHandler.cpp.i
 
-InputHandler/Main/MainInputHandler.s: InputHandler/Main/MainInputHandler.cpp.s
-.PHONY : InputHandler/Main/MainInputHandler.s
+Scene/Main/InputHandler/MainInputHandler.s: Scene/Main/InputHandler/MainInputHandler.cpp.s
+.PHONY : Scene/Main/InputHandler/MainInputHandler.s
 
 # target to generate assembly for a file
-InputHandler/Main/MainInputHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.s
-.PHONY : InputHandler/Main/MainInputHandler.cpp.s
+Scene/Main/InputHandler/MainInputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/InputHandler/MainInputHandler.cpp.s
+.PHONY : Scene/Main/InputHandler/MainInputHandler.cpp.s
+
+Scene/Main/MainScene.o: Scene/Main/MainScene.cpp.o
+.PHONY : Scene/Main/MainScene.o
+
+# target to build an object file
+Scene/Main/MainScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/MainScene.cpp.o
+.PHONY : Scene/Main/MainScene.cpp.o
+
+Scene/Main/MainScene.i: Scene/Main/MainScene.cpp.i
+.PHONY : Scene/Main/MainScene.i
+
+# target to preprocess a source file
+Scene/Main/MainScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/MainScene.cpp.i
+.PHONY : Scene/Main/MainScene.cpp.i
+
+Scene/Main/MainScene.s: Scene/Main/MainScene.cpp.s
+.PHONY : Scene/Main/MainScene.s
+
+# target to generate assembly for a file
+Scene/Main/MainScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Scene/Main/MainScene.cpp.s
+.PHONY : Scene/Main/MainScene.cpp.s
 
 component/GameManager.o: component/GameManager.cpp.o
 .PHONY : component/GameManager.o
@@ -258,12 +282,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... InputHandler/Main/MainCommands.o"
-	@echo "... InputHandler/Main/MainCommands.i"
-	@echo "... InputHandler/Main/MainCommands.s"
-	@echo "... InputHandler/Main/MainInputHandler.o"
-	@echo "... InputHandler/Main/MainInputHandler.i"
-	@echo "... InputHandler/Main/MainInputHandler.s"
+	@echo "... Scene/Main/InputHandler/MainCommands.o"
+	@echo "... Scene/Main/InputHandler/MainCommands.i"
+	@echo "... Scene/Main/InputHandler/MainCommands.s"
+	@echo "... Scene/Main/InputHandler/MainInputHandler.o"
+	@echo "... Scene/Main/InputHandler/MainInputHandler.i"
+	@echo "... Scene/Main/InputHandler/MainInputHandler.s"
+	@echo "... Scene/Main/MainScene.o"
+	@echo "... Scene/Main/MainScene.i"
+	@echo "... Scene/Main/MainScene.s"
 	@echo "... component/GameManager.o"
 	@echo "... component/GameManager.i"
 	@echo "... component/GameManager.s"

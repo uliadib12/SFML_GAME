@@ -16,10 +16,11 @@ find_package(SFML 2 COMPONENTS graphics window system REQUIRED)
 link_directories(${CMAKE_SOURCE_DIR}/lib)
 
 FILE(GLOB component ${CMAKE_SOURCE_DIR}/component/*.cpp)
-FILE(GLOB inputHandler ${CMAKE_SOURCE_DIR}/InputHandler/Main/*.cpp)
+FILE(GLOB inputHandler ${CMAKE_SOURCE_DIR}/Scene/Main/InputHandler/*.cpp)
+FILE(GLOB scene ${CMAKE_SOURCE_DIR}/Scene/Main/*.cpp)
 
 # Add your source file(s)
-add_executable(Game main.cpp ${component} ${inputHandler})
+add_executable(Game main.cpp ${component} ${inputHandler} ${scene})
 
 # Add include directories for the target
 target_include_directories(Game PRIVATE ${CMAKE_SOURCE_DIR}/include/box2d)

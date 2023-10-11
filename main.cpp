@@ -3,8 +3,8 @@
 #include <SFML/System.hpp>
 
 #include "component/GameManager.hpp"
-#include "component/Scene.hpp"
-#include "InputHandler/Main/MainInputHandler.hpp"
+#include "Scene/Main/MainScene.hpp"
+#include "Scene/Main/InputHandler/MainInputHandler.hpp"
 
 #include <iostream>
 
@@ -30,7 +30,7 @@ int main()
     sf::Clock clock;
 
     MainInputHandler* inputHandler = new MainInputHandler();
-    Scene* scene = new Scene(inputHandler);
+    MainScene* scene = new MainScene(inputHandler);
     GameManager* gameManager = new GameManager(window, scene, &clock);
 
     while (window->isOpen())

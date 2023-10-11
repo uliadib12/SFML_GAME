@@ -1,6 +1,8 @@
-CMakeFiles/Game.dir/main.cpp.o: \
- /home/adib/Documents/Project/SFML_GAME/main.cpp \
- /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
+CMakeFiles/Game.dir/Scene/Main/InputHandler/MainInputHandler.cpp.o: \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainInputHandler.cpp \
+ /usr/include/stdc-predef.h \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainInputHandler.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/../../../component/InputHandlerInterface.hpp \
  /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
  /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
  /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
@@ -195,8 +197,31 @@ CMakeFiles/Game.dir/main.cpp.o: \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc /usr/include/SFML/Window/Window.hpp \
  /usr/include/SFML/Window/WindowHandle.hpp \
- /usr/include/SFML/Window/WindowStyle.hpp \
- /usr/include/SFML/Graphics/BlendMode.hpp \
+ /usr/include/SFML/Window/WindowStyle.hpp /usr/include/c++/12/map \
+ /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/bits/node_handle.h \
+ /usr/include/c++/12/bits/stl_map.h /usr/include/c++/12/tuple \
+ /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
+ /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/memory \
+ /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
+ /usr/include/c++/12/bits/unique_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr_base.h \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/ext/concurrence.h \
+ /usr/include/c++/12/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12/bits/atomic_base.h \
+ /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/12/backward/auto_ptr.h \
+ /usr/include/c++/12/pstl/glue_memory_defs.h \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/../../../component/Command.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/../../../component/GameManager.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/../../../component/Scene.hpp \
+ /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/../../../component/GameObject.hpp \
+ /usr/include/SFML/Graphics.hpp /usr/include/SFML/Graphics/BlendMode.hpp \
  /usr/include/SFML/Graphics/Export.hpp \
  /usr/include/SFML/Graphics/CircleShape.hpp \
  /usr/include/SFML/Graphics/Shape.hpp \
@@ -212,14 +237,7 @@ CMakeFiles/Game.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/ConvexShape.hpp \
  /usr/include/SFML/Graphics/Font.hpp /usr/include/SFML/Graphics/Glyph.hpp \
  /usr/include/SFML/Graphics/Texture.hpp \
- /usr/include/SFML/Graphics/Image.hpp /usr/include/c++/12/map \
- /usr/include/c++/12/bits/stl_tree.h \
- /usr/include/c++/12/ext/aligned_buffer.h \
- /usr/include/c++/12/bits/node_handle.h \
- /usr/include/c++/12/bits/stl_map.h /usr/include/c++/12/tuple \
- /usr/include/c++/12/bits/uses_allocator.h \
- /usr/include/c++/12/bits/stl_multimap.h \
- /usr/include/c++/12/bits/erase_if.h \
+ /usr/include/SFML/Graphics/Image.hpp \
  /usr/include/SFML/Graphics/RectangleShape.hpp \
  /usr/include/SFML/Graphics/RenderTarget.hpp \
  /usr/include/SFML/Graphics/View.hpp \
@@ -229,27 +247,6 @@ CMakeFiles/Game.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/adib/Documents/Project/SFML_GAME/component/GameManager.hpp \
- /home/adib/Documents/Project/SFML_GAME/component/Scene.hpp \
- /home/adib/Documents/Project/SFML_GAME/component/InputHandlerInterface.hpp \
- /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_raw_storage_iter.h \
- /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
- /usr/include/c++/12/bits/unique_ptr.h \
- /usr/include/c++/12/bits/shared_ptr.h \
- /usr/include/c++/12/bits/shared_ptr_base.h \
- /usr/include/c++/12/bits/allocated_ptr.h \
- /usr/include/c++/12/ext/concurrence.h \
- /usr/include/c++/12/bits/shared_ptr_atomic.h \
- /usr/include/c++/12/bits/atomic_base.h \
- /usr/include/c++/12/bits/atomic_lockfree_defines.h \
- /usr/include/c++/12/backward/auto_ptr.h \
- /usr/include/c++/12/pstl/glue_memory_defs.h \
- /home/adib/Documents/Project/SFML_GAME/component/Command.hpp \
- /home/adib/Documents/Project/SFML_GAME/component/GameObject.hpp \
- /usr/include/c++/12/iostream /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc \
- /home/adib/Documents/Project/SFML_GAME/Scene/Main/MainScene.hpp \
- /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainInputHandler.hpp \
+ /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/12/iostream \
+ /usr/include/c++/12/istream /usr/include/c++/12/bits/istream.tcc \
  /home/adib/Documents/Project/SFML_GAME/Scene/Main/InputHandler/MainCommands.hpp

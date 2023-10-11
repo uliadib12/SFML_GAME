@@ -4,6 +4,7 @@
 
 class MainScene : public Scene {
 	public:
-		MainScene(InputHandlerInterface* inputHandler) : Scene(inputHandler){};
+		MainScene(InputHandlerInterface* inputHandler) : Scene(inputHandler) {};
+		void setUp() override;
 		void update() override;
 };

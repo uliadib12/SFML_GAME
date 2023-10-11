@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../../component/Command.hpp"
-#include "../../component/InputHandlerInterface.hpp"
+#include "../../../component/Command.hpp"
+#include "../../../component/InputHandlerInterface.hpp"
 
 #include <SFML/Window.hpp>
 

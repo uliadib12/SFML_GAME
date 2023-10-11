@@ -8,6 +8,9 @@ GameManager::GameManager(sf::RenderWindow* window,Scene* scene, sf::Clock* clock
 {
 	if(_scene != nullptr)
 		this->setUpScene();
+
+	if(_scene != nullptr)
+		this->_scene->setUp();
 }
 
 GameManager::~GameManager() {
