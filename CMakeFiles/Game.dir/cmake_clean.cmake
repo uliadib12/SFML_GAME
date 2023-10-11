@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o"
+  "CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o.d"
+  "CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o"
+  "CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o.d"
+  "CMakeFiles/Game.dir/component/GameManager.cpp.o"
+  "CMakeFiles/Game.dir/component/GameManager.cpp.o.d"
+  "CMakeFiles/Game.dir/component/Scene.cpp.o"
+  "CMakeFiles/Game.dir/component/Scene.cpp.o.d"
   "CMakeFiles/Game.dir/main.cpp.o"
   "CMakeFiles/Game.dir/main.cpp.o.d"
   "Game"

@@ -1,14 +1,13 @@
 CMakeFiles/Game.dir/main.cpp.o: \
  /home/adib/Documents/Project/SFML_GAME/main.cpp \
- /usr/include/stdc-predef.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_world.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_api.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_block_allocator.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_settings.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_types.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
+ /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
+ /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
+ /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
+ /usr/include/SFML/System/Err.hpp /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -16,153 +15,96 @@ CMakeFiles/Game.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_common.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h /usr/include/assert.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/float.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_contact_manager.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_broad_phase.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_collision.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_math.h \
- /usr/include/c++/12/math.h /usr/include/c++/12/cmath \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
  /usr/include/c++/12/pstl/pstl_config.h \
- /usr/include/c++/12/bits/cpp_type_traits.h \
- /usr/include/c++/12/ext/type_traits.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/12/bits/std_abs.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/12/bits/specfun.h \
- /usr/include/c++/12/bits/stl_algobase.h \
- /usr/include/c++/12/bits/functexcept.h \
- /usr/include/c++/12/bits/exception_defines.h \
- /usr/include/c++/12/ext/numeric_traits.h \
- /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/type_traits \
- /usr/include/c++/12/bits/move.h /usr/include/c++/12/bits/utility.h \
- /usr/include/c++/12/bits/stl_iterator_base_types.h \
- /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/12/bits/concept_check.h \
- /usr/include/c++/12/debug/assertions.h \
- /usr/include/c++/12/bits/stl_iterator.h \
- /usr/include/c++/12/bits/ptr_traits.h /usr/include/c++/12/debug/debug.h \
- /usr/include/c++/12/bits/predefined_ops.h /usr/include/c++/12/limits \
- /usr/include/c++/12/tr1/gamma.tcc \
- /usr/include/c++/12/tr1/special_function_util.h \
- /usr/include/c++/12/tr1/bessel_function.tcc \
- /usr/include/c++/12/tr1/beta_function.tcc \
- /usr/include/c++/12/tr1/ell_integral.tcc \
- /usr/include/c++/12/tr1/exp_integral.tcc \
- /usr/include/c++/12/tr1/hypergeometric.tcc \
- /usr/include/c++/12/tr1/legendre_function.tcc \
- /usr/include/c++/12/tr1/modified_bessel_func.tcc \
- /usr/include/c++/12/tr1/poly_hermite.tcc \
- /usr/include/c++/12/tr1/poly_laguerre.tcc \
- /usr/include/c++/12/tr1/riemann_zeta.tcc \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_dynamic_tree.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_growable_stack.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_stack_allocator.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_time_step.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_world_callbacks.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_math.h \
- /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
- /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
- /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
- /usr/include/SFML/System/Time.hpp /usr/include/SFML/System/Err.hpp \
- /usr/include/c++/12/ostream /usr/include/c++/12/ios \
- /usr/include/c++/12/iosfwd /usr/include/c++/12/bits/stringfwd.h \
+ /usr/include/c++/12/bits/stringfwd.h \
  /usr/include/c++/12/bits/memoryfwd.h /usr/include/c++/12/bits/postypes.h \
  /usr/include/c++/12/cwchar /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
  /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/bits/exception_defines.h \
  /usr/include/c++/12/bits/cxxabi_init_exception.h \
  /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/hash_bytes.h \
- /usr/include/c++/12/new /usr/include/c++/12/bits/nested_exception.h \
+ /usr/include/c++/12/new /usr/include/c++/12/bits/move.h \
+ /usr/include/c++/12/type_traits \
+ /usr/include/c++/12/bits/nested_exception.h \
  /usr/include/c++/12/bits/char_traits.h /usr/include/c++/12/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/c++/12/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
  /usr/include/c++/12/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/12/cctype \
- /usr/include/ctype.h /usr/include/c++/12/bits/ios_base.h \
- /usr/include/c++/12/ext/atomicity.h \
+ /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/c++/12/bits/ios_base.h /usr/include/c++/12/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/12/bits/locale_classes.h /usr/include/c++/12/string \
  /usr/include/c++/12/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
  /usr/include/c++/12/bits/new_allocator.h \
+ /usr/include/c++/12/bits/functexcept.h \
+ /usr/include/c++/12/bits/cpp_type_traits.h \
  /usr/include/c++/12/bits/ostream_insert.h \
  /usr/include/c++/12/bits/cxxabi_forced.h \
+ /usr/include/c++/12/bits/stl_iterator_base_types.h \
+ /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/12/bits/concept_check.h \
+ /usr/include/c++/12/debug/assertions.h \
+ /usr/include/c++/12/bits/stl_iterator.h \
+ /usr/include/c++/12/ext/type_traits.h \
+ /usr/include/c++/12/bits/ptr_traits.h \
  /usr/include/c++/12/bits/stl_function.h \
  /usr/include/c++/12/backward/binders.h \
+ /usr/include/c++/12/ext/numeric_traits.h \
+ /usr/include/c++/12/bits/stl_algobase.h \
+ /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/bits/utility.h \
+ /usr/include/c++/12/debug/debug.h \
+ /usr/include/c++/12/bits/predefined_ops.h \
  /usr/include/c++/12/bits/refwrap.h /usr/include/c++/12/bits/invoke.h \
  /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/initializer_list \
@@ -173,8 +115,17 @@ CMakeFiles/Game.dir/main.cpp.o: \
  /usr/include/c++/12/bits/functional_hash.h \
  /usr/include/c++/12/bits/string_view.tcc \
  /usr/include/c++/12/ext/string_conversions.h /usr/include/c++/12/cstdlib \
- /usr/include/c++/12/cstdio /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/12/bits/std_abs.h /usr/include/c++/12/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
@@ -279,110 +230,25 @@ CMakeFiles/Game.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_body.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_shape.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_polygon_shape.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_fixture.h \
- /home/adib/Documents/Project/SFML_GAME/include/box2d/b2_body.h \
- /usr/local/include/behaviortree_cpp/action_node.h \
- /usr/include/c++/12/atomic /usr/include/c++/12/bits/atomic_base.h \
- /usr/include/c++/12/bits/atomic_lockfree_defines.h \
- /usr/include/c++/12/thread /usr/include/c++/12/bits/std_thread.h \
+ /home/adib/Documents/Project/SFML_GAME/component/GameManager.hpp \
+ /home/adib/Documents/Project/SFML_GAME/component/Scene.hpp \
+ /home/adib/Documents/Project/SFML_GAME/component/InputHandlerInterface.hpp \
+ /usr/include/c++/12/memory \
+ /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
  /usr/include/c++/12/bits/unique_ptr.h \
- /usr/include/c++/12/bits/this_thread_sleep.h \
- /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
- /usr/include/c++/12/bits/parse_numbers.h /usr/include/c++/12/future \
- /usr/include/c++/12/mutex /usr/include/c++/12/bits/std_mutex.h \
- /usr/include/c++/12/bits/unique_lock.h \
- /usr/include/c++/12/condition_variable \
  /usr/include/c++/12/bits/shared_ptr.h \
  /usr/include/c++/12/bits/shared_ptr_base.h \
  /usr/include/c++/12/bits/allocated_ptr.h \
  /usr/include/c++/12/ext/concurrence.h \
- /usr/include/c++/12/bits/atomic_futex.h \
- /usr/include/c++/12/bits/std_function.h \
- /usr/local/include/behaviortree_cpp/leaf_node.h \
- /usr/local/include/behaviortree_cpp/tree_node.h \
- /usr/local/include/behaviortree_cpp/utils/signal.h \
- /usr/include/c++/12/memory \
- /usr/include/c++/12/bits/stl_raw_storage_iter.h \
- /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
  /usr/include/c++/12/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12/bits/atomic_base.h \
+ /usr/include/c++/12/bits/atomic_lockfree_defines.h \
  /usr/include/c++/12/backward/auto_ptr.h \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
- /usr/include/c++/12/functional /usr/include/c++/12/unordered_map \
- /usr/include/c++/12/bits/hashtable.h \
- /usr/include/c++/12/bits/hashtable_policy.h \
- /usr/include/c++/12/bits/enable_special_members.h \
- /usr/include/c++/12/bits/unordered_map.h /usr/include/c++/12/array \
- /usr/include/c++/12/compare \
- /usr/local/include/behaviortree_cpp/basic_types.h \
+ /home/adib/Documents/Project/SFML_GAME/component/Command.hpp \
+ /home/adib/Documents/Project/SFML_GAME/component/GameObject.hpp \
  /usr/include/c++/12/iostream /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/sstream \
- /usr/include/c++/12/bits/sstream.tcc /usr/include/c++/12/unordered_set \
- /usr/include/c++/12/bits/unordered_set.h /usr/include/c++/12/chrono \
- /usr/include/c++/12/variant /usr/include/c++/12/optional \
- /usr/local/include/behaviortree_cpp/utils/safe_any.hpp \
- /usr/include/c++/12/cstring /usr/include/c++/12/typeindex \
- /usr/local/include/behaviortree_cpp/contrib/any.hpp \
- /usr/local/include/behaviortree_cpp/contrib/expected.hpp \
- /usr/include/c++/12/utility /usr/include/c++/12/bits/stl_relops.h \
- /usr/include/c++/12/cassert \
- /usr/local/include/behaviortree_cpp/utils/demangle_util.h \
- /usr/include/c++/12/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/cxxabi_tweaks.h \
- /usr/include/c++/12/cstddef \
- /usr/local/include/behaviortree_cpp/utils/convert_impl.hpp \
- /usr/local/include/behaviortree_cpp/utils/simple_string.hpp \
- /usr/local/include/behaviortree_cpp/utils/strcat.hpp \
- /usr/local/include/behaviortree_cpp/exceptions.h \
- /usr/local/include/behaviortree_cpp/utils/strcat.hpp \
- /usr/local/include/behaviortree_cpp/blackboard.h \
- /usr/local/include/behaviortree_cpp/utils/locked_reference.hpp \
- /usr/local/include/behaviortree_cpp/utils/wakeup_signal.hpp \
- /usr/local/include/behaviortree_cpp/scripting/script_parser.hpp \
- /usr/local/include/behaviortree_cpp/bt_factory.h \
- /usr/include/c++/12/filesystem /usr/include/c++/12/bits/fs_fwd.h \
- /usr/include/c++/12/bits/fs_path.h /usr/include/c++/12/iomanip \
- /usr/include/c++/12/bits/quoted_string.h /usr/include/c++/12/codecvt \
- /usr/include/c++/12/bits/fs_dir.h /usr/include/c++/12/bits/fs_ops.h \
- /usr/include/c++/12/set /usr/include/c++/12/bits/stl_set.h \
- /usr/include/c++/12/bits/stl_multiset.h \
- /usr/local/include/behaviortree_cpp/contrib/magic_enum.hpp \
- /usr/local/include/behaviortree_cpp/behavior_tree.h \
- /usr/local/include/behaviortree_cpp/controls/parallel_node.h \
- /usr/local/include/behaviortree_cpp/control_node.h \
- /usr/local/include/behaviortree_cpp/controls/parallel_all_node.h \
- /usr/local/include/behaviortree_cpp/controls/reactive_sequence.h \
- /usr/local/include/behaviortree_cpp/controls/reactive_fallback.h \
- /usr/local/include/behaviortree_cpp/controls/fallback_node.h \
- /usr/local/include/behaviortree_cpp/controls/sequence_node.h \
- /usr/local/include/behaviortree_cpp/controls/sequence_star_node.h \
- /usr/local/include/behaviortree_cpp/controls/switch_node.h \
- /usr/local/include/behaviortree_cpp/controls/if_then_else_node.h \
- /usr/local/include/behaviortree_cpp/controls/while_do_else_node.h \
- /usr/local/include/behaviortree_cpp/condition_node.h \
- /usr/local/include/behaviortree_cpp/decorators/inverter_node.h \
- /usr/local/include/behaviortree_cpp/decorator_node.h \
- /usr/local/include/behaviortree_cpp/decorators/retry_node.h \
- /usr/local/include/behaviortree_cpp/decorators/repeat_node.h \
- /usr/local/include/behaviortree_cpp/decorators/run_once_node.h \
- /usr/local/include/behaviortree_cpp/decorators/subtree_node.h \
- /usr/local/include/behaviortree_cpp/decorators/loop_node.h \
- /usr/include/c++/12/deque /usr/include/c++/12/bits/stl_deque.h \
- /usr/include/c++/12/bits/deque.tcc \
- /usr/local/include/behaviortree_cpp/actions/always_success_node.h \
- /usr/local/include/behaviortree_cpp/actions/always_failure_node.h \
- /usr/local/include/behaviortree_cpp/actions/script_condition.h \
- /usr/local/include/behaviortree_cpp/actions/script_node.h \
- /usr/local/include/behaviortree_cpp/actions/set_blackboard_node.h \
- /usr/local/include/behaviortree_cpp/actions/test_node.h \
- /usr/local/include/behaviortree_cpp/utils/timer_queue.h \
- /usr/include/c++/12/queue /usr/include/c++/12/bits/stl_queue.h \
- /usr/local/include/behaviortree_cpp/actions/sleep_node.h \
- /usr/local/include/behaviortree_cpp/decorators/force_success_node.h \
- /usr/local/include/behaviortree_cpp/decorators/force_failure_node.h \
- /usr/local/include/behaviortree_cpp/decorators/keep_running_until_failure_node.h \
- /usr/local/include/behaviortree_cpp/decorators/script_precondition.h \
- /usr/local/include/behaviortree_cpp/decorators/timeout_node.h \
- /usr/local/include/behaviortree_cpp/decorators/delay_node.h
+ /usr/include/c++/12/bits/istream.tcc \
+ /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainInputHandler.hpp \
+ /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainCommands.hpp

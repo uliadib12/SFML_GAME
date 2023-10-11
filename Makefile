@@ -129,6 +129,102 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
+InputHandler/Main/MainCommands.o: InputHandler/Main/MainCommands.cpp.o
+.PHONY : InputHandler/Main/MainCommands.o
+
+# target to build an object file
+InputHandler/Main/MainCommands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o
+.PHONY : InputHandler/Main/MainCommands.cpp.o
+
+InputHandler/Main/MainCommands.i: InputHandler/Main/MainCommands.cpp.i
+.PHONY : InputHandler/Main/MainCommands.i
+
+# target to preprocess a source file
+InputHandler/Main/MainCommands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.i
+.PHONY : InputHandler/Main/MainCommands.cpp.i
+
+InputHandler/Main/MainCommands.s: InputHandler/Main/MainCommands.cpp.s
+.PHONY : InputHandler/Main/MainCommands.s
+
+# target to generate assembly for a file
+InputHandler/Main/MainCommands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.s
+.PHONY : InputHandler/Main/MainCommands.cpp.s
+
+InputHandler/Main/MainInputHandler.o: InputHandler/Main/MainInputHandler.cpp.o
+.PHONY : InputHandler/Main/MainInputHandler.o
+
+# target to build an object file
+InputHandler/Main/MainInputHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o
+.PHONY : InputHandler/Main/MainInputHandler.cpp.o
+
+InputHandler/Main/MainInputHandler.i: InputHandler/Main/MainInputHandler.cpp.i
+.PHONY : InputHandler/Main/MainInputHandler.i
+
+# target to preprocess a source file
+InputHandler/Main/MainInputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.i
+.PHONY : InputHandler/Main/MainInputHandler.cpp.i
+
+InputHandler/Main/MainInputHandler.s: InputHandler/Main/MainInputHandler.cpp.s
+.PHONY : InputHandler/Main/MainInputHandler.s
+
+# target to generate assembly for a file
+InputHandler/Main/MainInputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.s
+.PHONY : InputHandler/Main/MainInputHandler.cpp.s
+
+component/GameManager.o: component/GameManager.cpp.o
+.PHONY : component/GameManager.o
+
+# target to build an object file
+component/GameManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/component/GameManager.cpp.o
+.PHONY : component/GameManager.cpp.o
+
+component/GameManager.i: component/GameManager.cpp.i
+.PHONY : component/GameManager.i
+
+# target to preprocess a source file
+component/GameManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/component/GameManager.cpp.i
+.PHONY : component/GameManager.cpp.i
+
+component/GameManager.s: component/GameManager.cpp.s
+.PHONY : component/GameManager.s
+
+# target to generate assembly for a file
+component/GameManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/component/GameManager.cpp.s
+.PHONY : component/GameManager.cpp.s
+
+component/Scene.o: component/Scene.cpp.o
+.PHONY : component/Scene.o
+
+# target to build an object file
+component/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/component/Scene.cpp.o
+.PHONY : component/Scene.cpp.o
+
+component/Scene.i: component/Scene.cpp.i
+.PHONY : component/Scene.i
+
+# target to preprocess a source file
+component/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/component/Scene.cpp.i
+.PHONY : component/Scene.cpp.i
+
+component/Scene.s: component/Scene.cpp.s
+.PHONY : component/Scene.s
+
+# target to generate assembly for a file
+component/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/component/Scene.cpp.s
+.PHONY : component/Scene.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
+	@echo "... InputHandler/Main/MainCommands.o"
+	@echo "... InputHandler/Main/MainCommands.i"
+	@echo "... InputHandler/Main/MainCommands.s"
+	@echo "... InputHandler/Main/MainInputHandler.o"
+	@echo "... InputHandler/Main/MainInputHandler.i"
+	@echo "... InputHandler/Main/MainInputHandler.s"
+	@echo "... component/GameManager.o"
+	@echo "... component/GameManager.i"
+	@echo "... component/GameManager.s"
+	@echo "... component/Scene.o"
+	@echo "... component/Scene.i"
+	@echo "... component/Scene.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

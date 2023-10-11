@@ -227,9 +227,6 @@ SFML_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SFML
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 
-//The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=ament_cmake_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for behaviortree_cpp.
 behaviortree_cpp_DIR:PATH=/usr/local/lib/cmake/behaviortree_cpp
 

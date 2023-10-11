@@ -83,21 +83,85 @@ CMakeFiles/Game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adib/Documents/Project/SFML_GAME/main.cpp -o CMakeFiles/Game.dir/main.cpp.s
 
+CMakeFiles/Game.dir/component/GameManager.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/component/GameManager.cpp.o: component/GameManager.cpp
+CMakeFiles/Game.dir/component/GameManager.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/component/GameManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/component/GameManager.cpp.o -MF CMakeFiles/Game.dir/component/GameManager.cpp.o.d -o CMakeFiles/Game.dir/component/GameManager.cpp.o -c /home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp
+
+CMakeFiles/Game.dir/component/GameManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/component/GameManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp > CMakeFiles/Game.dir/component/GameManager.cpp.i
+
+CMakeFiles/Game.dir/component/GameManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/component/GameManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adib/Documents/Project/SFML_GAME/component/GameManager.cpp -o CMakeFiles/Game.dir/component/GameManager.cpp.s
+
+CMakeFiles/Game.dir/component/Scene.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/component/Scene.cpp.o: component/Scene.cpp
+CMakeFiles/Game.dir/component/Scene.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/component/Scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/component/Scene.cpp.o -MF CMakeFiles/Game.dir/component/Scene.cpp.o.d -o CMakeFiles/Game.dir/component/Scene.cpp.o -c /home/adib/Documents/Project/SFML_GAME/component/Scene.cpp
+
+CMakeFiles/Game.dir/component/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/component/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adib/Documents/Project/SFML_GAME/component/Scene.cpp > CMakeFiles/Game.dir/component/Scene.cpp.i
+
+CMakeFiles/Game.dir/component/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/component/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adib/Documents/Project/SFML_GAME/component/Scene.cpp -o CMakeFiles/Game.dir/component/Scene.cpp.s
+
+CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o: InputHandler/Main/MainCommands.cpp
+CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o -MF CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o.d -o CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o -c /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainCommands.cpp
+
+CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainCommands.cpp > CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.i
+
+CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainCommands.cpp -o CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.s
+
+CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o: InputHandler/Main/MainInputHandler.cpp
+CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o -MF CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o.d -o CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o -c /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainInputHandler.cpp
+
+CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainInputHandler.cpp > CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.i
+
+CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adib/Documents/Project/SFML_GAME/InputHandler/Main/MainInputHandler.cpp -o CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.s
+
 # Object files for target Game
 Game_OBJECTS = \
-"CMakeFiles/Game.dir/main.cpp.o"
+"CMakeFiles/Game.dir/main.cpp.o" \
+"CMakeFiles/Game.dir/component/GameManager.cpp.o" \
+"CMakeFiles/Game.dir/component/Scene.cpp.o" \
+"CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o" \
+"CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
 
 Game: CMakeFiles/Game.dir/main.cpp.o
+Game: CMakeFiles/Game.dir/component/GameManager.cpp.o
+Game: CMakeFiles/Game.dir/component/Scene.cpp.o
+Game: CMakeFiles/Game.dir/InputHandler/Main/MainCommands.cpp.o
+Game: CMakeFiles/Game.dir/InputHandler/Main/MainInputHandler.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Game: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Game: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Game: /usr/local/lib/libbehaviortree_cpp.so
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adib/Documents/Project/SFML_GAME/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

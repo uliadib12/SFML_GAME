@@ -15,8 +15,11 @@ find_package(SFML 2 COMPONENTS graphics window system REQUIRED)
 # Add the directory containing your static library to CMake's search path
 link_directories(${CMAKE_SOURCE_DIR}/lib)
 
+FILE(GLOB component ${CMAKE_SOURCE_DIR}/component/*.cpp)
+FILE(GLOB inputHandler ${CMAKE_SOURCE_DIR}/InputHandler/Main/*.cpp)
+
 # Add your source file(s)
-add_executable(Game main.cpp)
+add_executable(Game main.cpp ${component} ${inputHandler})
 
 # Add include directories for the target
 target_include_directories(Game PRIVATE ${CMAKE_SOURCE_DIR}/include/box2d)
